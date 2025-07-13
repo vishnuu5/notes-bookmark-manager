@@ -6,11 +6,11 @@ const nextConfig = {
   },
   typescript: {
     ignoreBuildErrors: false,
-  }
-  // images: {
-  //   domains: ["localhost"],
-  //   unoptimized: true,
-  // },
+  },
+  images: {
+    domains: ["https://notes-bookmark-manager.vercel.app"],
+    unoptimized: true,
+  },
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
   },
