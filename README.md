@@ -2,6 +2,10 @@
 
 A full-stack web application for managing personal notes and bookmarks with search, filtering, and tagging capabilities.
 
+##DEMO 
+
+[viewdemo](https://notes-bookmark-manager.vercel.app)
+
 ## 🚀 Tech Stack
 
 **Backend:**
