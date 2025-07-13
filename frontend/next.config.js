@@ -2,15 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    domains: ["localhost"],
-    unoptimized: true,
-  },
+    ignoreBuildErrors: false,
+  }
+  // images: {
+  //   domains: ["localhost"],
+  //   unoptimized: true,
+  // },
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
   },
