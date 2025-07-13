@@ -14,7 +14,7 @@ const app = express();
 // Connect to MongoDB
 connectDB();
 
-// Security middleware
+// Security middlewar
 app.use(helmet());
 
 // Rate limiting
@@ -24,12 +24,11 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
-// CORS configuration
 app.use(
   cors({
     origin:
       process.env.NODE_ENV === "production"
-        ? ["https://your-frontend-domain.com"]
+        ? ["https://notes-bookmark-manager.vercel.app"]
         : ["http://localhost:3000"],
     credentials: true,
   })
